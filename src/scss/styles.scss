@@ -1,9 +1,20 @@
-@import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/utilities/api";
 
 #weather-today {
     width: 65vw;
     margin-top: 3rem;
     display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #weather-today:nth-child(2) {
