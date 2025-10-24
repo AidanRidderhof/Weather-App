@@ -1,0 +1,49 @@
+@import "bootstrap/scss/bootstrap";
+
+#weather-today {
+    width: 65vw;
+    margin-top: 3rem;
+    display: none;
+}
+
+#weather-today:nth-child(2) {
+    justify-self: end;
+}
+
+#weather-icon {
+    height: 200px;
+    width: 200px
+}
+
+#current-temp {
+    font-size: 124px;
+}
+
+#week-overview {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+
+.day, .day-quality{
+    border: solid white 1px;
+}
+
+#daily-info {
+    justify-content: space-around;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: -1;
+  object-fit: cover;
+}
+
+#weather-icon, .day img {
+    filter: brightness(0) invert(1); /* This makes the icons white */
+}
